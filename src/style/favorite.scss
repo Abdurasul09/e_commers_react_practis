@@ -1,0 +1,46 @@
+#favorite {
+  .content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    .favoriteItemBox {
+      width: 100%;
+      margin: 20px;
+
+      .firstBox {
+        img {
+          width: 270px;
+          height: 250px;
+          object-fit: contain;
+        }
+      }
+
+      .secondBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+      }
+    }
+  }
+  .favoriteIconText {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    i{
+      font-size: 24px;
+      margin: 5px;
+    }
+  }
+
+  //.underline {
+  //  width: 100%;
+  //  height: 1.4px;
+  //  background: rgba(34, 36, 38, 0.35);
+  //  margin: 10px 0 20px 0;
+  //}
+}

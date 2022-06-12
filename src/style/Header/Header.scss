@@ -1,0 +1,102 @@
+#header{
+  background: #f8f9fa;
+  padding: 20px 0;
+  .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .firstContent{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img{
+        width: 6rem;
+      }
+      .links{
+        a{
+          color: #000000;
+          font-size: 16px;
+          margin: 10px;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .headerIcons{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .shopIcon{
+        display: flex;
+        margin: 15px;
+
+        i{
+          color: #000000;
+          font-size: 28px;
+        }
+        .circle-cart{
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          width: 23px;
+          height: 23px;
+          border-radius: 50%;
+          background: grey;
+          color:white;
+          top: 25px;
+          right: 495px;
+        }
+      }
+
+      .likeIcon{
+        margin: 15px;
+        i{
+          font-size: 28px;
+          color: #000000;
+        }
+        .circle-favorite{
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          width: 23px;
+          height: 23px;
+          border-radius: 50%;
+          background: grey;
+          color:white;
+          top: 25px;
+          right: 435px;
+        }
+      }
+    }
+
+
+    .search{
+      input{
+        border: 1px solid grey;
+        border-radius: 4px;
+        padding: 5px;
+      }
+      button{
+        border: 1px solid grey;
+        border-radius: 4px;
+        padding: 5px;
+        margin-left: 5px;
+        background: white;
+        transition: .3s ease;
+        &:hover{
+          cursor: pointer;
+          background: cornflowerblue;
+          color: white;
+        }
+      }
+    }
+
+
+
+
+    .form{
+      width: 70px;
+    }
+  }
+}

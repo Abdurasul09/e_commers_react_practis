@@ -1,0 +1,54 @@
+.singleProduct{
+  margin-top: 20px;
+
+  .content{
+    display: flex;
+    justify-content: space-between;
+
+    .contentImg{
+      width: 50%;
+      height: 500px;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .contentDescription{
+      width: 40%;
+
+      .addBtnIcon{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-top: 20px;
+
+        button{
+          border: 1px solid cornflowerblue;
+          color: rgba(0, 0, 0, 0.67);
+          background: white;
+          padding: 8px;
+          border-radius: 4px;
+          font-size: 13px;
+          transition: .3s ease;
+          &:hover{
+            cursor: pointer;
+            background: cornflowerblue;
+            color: white;
+          }
+        }
+
+        i{
+          font-size: 24px;
+          margin: 10px;
+          &:hover{
+            cursor: pointer;
+            color: crimson;
+          }
+        }
+      }
+    }
+  }
+
+}
